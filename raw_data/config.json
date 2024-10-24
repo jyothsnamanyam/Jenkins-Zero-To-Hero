@@ -1,0 +1,94 @@
+{
+  "dynamodb_table": "NVSGISBSTGB-ONE-DESIGN-ACCOUNT-DATA",
+  "lambda_func_name" : "NVSGISBSTGB-ONE-DESIGN-TGW-Lambda",
+  "ram_share_data": "raw_data/ram_share.xlsx",
+  "TEST": {
+	"ap-northeast-1": {
+		"ram_arn": "arn:aws:ram:ap-northeast-1:636711886667:resource-share/f0fde12f-9be6-4477-9d1d-ca404eb47d23",
+		"transitgatewayId": "tgw-0d8757ce3dce60396",
+		"tgw_rt_tables": {
+			"INTRACONNDEV01": "",
+			"INTRACONNPGB01": "",
+			"INTRACONNGB01": "",
+			"INTERCONNDEV01": "",
+			"INTERCONNPGB01": "",
+			"INTERCONNGB01": "",
+			"CONNSHAREDSERVGB01": "",
+			"EGRESS": "",
+			"INTERISOLDEV01": "",
+			"INTERISOLPGB01": "",
+			"INTERISOLGB01": ""
+			}
+	}
+  },
+  "PROD": {
+	"ap-northeast-1": {
+		"ram_arn": "",
+		"transitgatewayId": "tgw-0325c591807fea123",
+		"tgw_rt_tables": {
+			"INTRACONNDEV01": "",
+			"INTRACONNPGB01": "",
+			"INTRACONNGB01": "",
+			"INTERCONNDEV01": "",
+			"INTERCONNPGB01": "",
+			"INTERCONNGB01": "",
+			"CONNSHAREDSERVGB01": "",
+			"EGRESS": "",
+			"INTERISOLDEV01": "",
+			"INTERISOLPGB01": "",
+			"INTERISOLGB01": ""
+			}
+	},
+	"eu-central-1": {
+		"ram_arn": "",
+		"transitgatewayId": "",
+		"tgw_rt_tables": {
+			"INTRACONNDEV01": "",
+			"INTRACONNPGB01": "",
+			"INTRACONNGB01": "",
+			"INTERCONNDEV01": "",
+			"INTERCONNPGB01": "",
+			"INTERCONNGB01": "",
+			"CONNSHAREDSERVGB01": "",
+			"EGRESS": "",
+			"INTERISOLDEV01": "",
+			"INTERISOLPGB01": "",
+			"INTERISOLGB01": ""
+			}
+	},
+	"eu-west-1": {
+		"ram_arn": "",
+		"transitgatewayId": "",
+		"tgw_rt_tables": {
+			"INTRACONNDEV01": "",
+			"INTRACONNPGB01": "",
+			"INTRACONNGB01": "",
+			"INTERCONNDEV01": "",
+			"INTERCONNPGB01": "",
+			"INTERCONNGB01": "",
+			"CONNSHAREDSERVGB01": "",
+			"EGRESS": "",
+			"INTERISOLDEV01": "",
+			"INTERISOLPGB01": "",
+			"INTERISOLGB01": ""
+			}
+	},
+	"us-east-1": {
+		"ram_arn": "",
+		"transitgatewayId": "",
+		"tgw_rt_tables": {
+			"INTRACONNDEV01": "",
+			"INTRACONNPGB01": "",
+			"INTRACONNGB01": "",
+			"INTERCONNDEV01": "",
+			"INTERCONNPGB01": "",
+			"INTERCONNGB01": "",
+			"CONNSHAREDSERVGB01": "",
+			"EGRESS": "",
+			"INTERISOLDEV01": "",
+			"INTERISOLPGB01": "",
+			"INTERISOLGB01": ""
+			}
+	}
+  }
+}
